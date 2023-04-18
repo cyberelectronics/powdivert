@@ -1,4 +1,4 @@
-# powdivert
+# PowDivert
 DIY 3 Phase Power Diverter for PV system
 
 First test Video
