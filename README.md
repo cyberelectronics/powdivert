@@ -7,6 +7,20 @@ Power related messages, are obtained from Huawei SmartMeter and Inverter, over W
 First test Video
 https://youtube.com/shorts/sCgPW7VnUGQ
 
+Video Description:
+
+Div.A/B/C   kW = power diverted on each phase to the 3 phase heater (3x 2300W)
+Boiler C = boiler temperature in Celsius
+Heats C = Heatsink temperature in Celsius
+
+Info. received from Huawei SmartMeter and Inverter, using WiFi Modbus TCP:
+Grid  kW = Total power injection (Green) / consumption (Red)
+Solar kW = Total Solar power from PV system
+
+Grid A/B/C  kW = power injection (Green) / consumption (Red) on each phase
+Grid A/B/C   V = Voltage on each phase
+
+
 Main Components:
 
 1) v1 = 3x PWM 8A Dimmers + external isolated triacs (BTA41-600B) = https://www.tindie.com/products/bugrovs2012/pwm-8a-ac-light-dimmer-module-50hz-60hz-tasmota/#specs
