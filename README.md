@@ -2,6 +2,7 @@
 DIY 3 Phase Power Diverter for PV system
 
 Can divert all excess power from each phase to a boiler/puffer.
+Power related messages, are obtained from Huawei SmartMeter and Inverter, over WiFi ModbusTCP connection.
 
 First test Video
 https://youtube.com/shorts/sCgPW7VnUGQ
