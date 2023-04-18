@@ -9,22 +9,21 @@ https://youtube.com/shorts/sCgPW7VnUGQ
 
 Video Description:
 
-Div.A/B/C   kW = power diverted on each phase to the 3 phase heater (3x 2300W)
-Boiler C = boiler temperature in Celsius
-Heats C = Heatsink temperature in Celsius
+>Div.A/B/C   kW = power diverted on each phase to the 3 phase heater (3x 2300W)  
+>Boiler C = boiler temperature in Celsius  
+>Heats C = Heatsink temperature in Celsius  
 
-Info. received from Huawei SmartMeter and Inverter, using WiFi Modbus TCP:
-Grid  kW = Total power injection (Green) / consumption (Red)
-Solar kW = Total Solar power from PV system
+>Info. received from Huawei SmartMeter and Inverter, using WiFi Modbus TCP:  
+>Grid  kW = Total power injection (Green) / consumption (Red)  
+>Solar kW = Total Solar power from PV system  
 
-Grid A/B/C  kW = power injection (Green) / consumption (Red) on each phase
-Grid A/B/C   V = Voltage on each phase
+>Grid A/B/C  kW = power injection (Green) / consumption (Red) on each phase  
+>Grid A/B/C   V = Grid Voltage on each phase  
 
 
 Main Components:
 
-1) v1 = 3x PWM 8A Dimmers + external isolated triacs (BTA41-600B) = https://www.tindie.com/products/bugrovs2012/pwm-8a-ac-light-dimmer-module-50hz-60hz-tasmota/#specs
-
+1) v1 = 3x PWM 8A Dimmers + external isolated triacs (BTA41-600B) = https://www.tindie.com/products/bugrovs2012/pwm-8a-ac-light-dimmer-module-50hz-60hz-tasmota/#specs  
 v2 = 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm-16a-3500w-triac-leading-edge-dimmer-50hz-60hz/
 
 2) ESP32 TTGO TFT board = https://cleste.ro/placa-dezvoltare-cu-esp32-bluetooth-si-display.html
@@ -57,8 +56,8 @@ v2 = 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm-16a-35
 
 16) Small box 80x80x40 for ESP32 = https://www.dedeman.ro/oradea/doza-derivatie-aparenta-gewiss-gw44003-6-intrari-ip44-80-x-80-x-40-mm/p/1059379
 
-17) >>> Filters to suppress Triacs EMI and RFI noise 
+17) > ToDo = Filters to suppress Triacs EMI and RFI noise 
 
-// For 1 Phase only you can use PWM 16A Dimmer + Upshield Board for ESP32 WiFi Kit module (https://cleste.ro/modul-nodemcu-wifi-esp8266-cp2102-cu-display-oled.html) with FreeDS software (https://freeds.es/) and similar commercial box: https://www.hornbach.ro/p/doza-aplicata-pentru-legaturi-pawbol-150x110-mm-ip65-gri-cu-capac-transparent-fara-presetupe/10567244/ 
+> For 1 Phase only you can use PWM 16A Dimmer + Upshield Board for ESP32 WiFi Kit module (https://cleste.ro/modul-nodemcu-wifi-esp8266-cp2102-cu-display-oled.html) with FreeDS software (https://freeds.es/) and similar commercial box: https://www.hornbach.ro/p/doza-aplicata-pentru-legaturi-pawbol-150x110-mm-ip65-gri-cu-capac-transparent-fara-presetupe/10567244/ 
 
-Work in progress...
+>Work in progress...
