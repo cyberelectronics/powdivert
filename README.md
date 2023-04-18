@@ -1,6 +1,8 @@
 # PowDivert
 DIY 3 Phase Power Diverter for PV system
 
+Can divert all excess power from each phase to a boiler/puffer.
+
 First test Video
 https://youtube.com/shorts/sCgPW7VnUGQ
 
