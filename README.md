@@ -65,6 +65,8 @@ v2 = 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm-16a-35
 
 17) > ToDo = Filters to suppress Triacs EMI and RFI noise 
 
-> For 1 Phase only you can use PWM 16A Dimmer + Upshield Board for ESP32 WiFi Kit module (https://cleste.ro/modul-nodemcu-wifi-esp8266-cp2102-cu-display-oled.html) with FreeDS software (https://freeds.es/) and similar commercial box: https://www.hornbach.ro/p/doza-aplicata-pentru-legaturi-pawbol-150x110-mm-ip65-gri-cu-capac-transparent-fara-presetupe/10567244/ 
+> For 1 Phase only you can use PWM 16A Dimmer + Upshield Board for ESP32 WiFi Kit module (https://cleste.ro/modul-nodemcu-wifi-esp8266-cp2102-cu-display-oled.html) with FreeDS software (https://freeds.es/) and similar commercial box: https://www.hornbach.ro/p/doza-aplicata-pentru-legaturi-pawbol-150x110-mm-ip65-gri-cu-capac-transparent-fara-presetupe/10567244/  
+> 1 Phase Test Video  
+> https://youtu.be/vAFfa62qKx4
 
 >Work in progress...
