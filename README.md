@@ -6,7 +6,9 @@ Power related messages, are obtained from Huawei SmartMeter and Inverter, over W
 
 Two different working modes can be enabled: Overvoltage protection (power will be diverted only when the grid voltage rise above set value, ex.252V) and Normal mode (diverter always enabled and active when boiler temp. is below set value).
 
-Boost mode can be enabled for low temperature in the boiler, to heatup the water to preset value, when there is no excess power from PV system.
+Boost mode can be enabled for low temperature in the boiler, to heatup the water to a preset value, when there is no excess power from PV system.
+
+When there is no communication with the Inverter/Smartmeter, the diverter will be disabled in a few minutes. 
 
 1st Test Video  
 https://youtube.com/shorts/sCgPW7VnUGQ
