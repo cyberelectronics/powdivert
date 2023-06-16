@@ -4,6 +4,10 @@ DIY 3 Phase Power Diverter for PV system
 Can divert all excess power from each phase to a boiler/puffer.
 Power related messages, are obtained from Huawei SmartMeter and Inverter, over WiFi ModbusTCP connection.
 
+Two different working modes can be enabled: Overvoltage protection (power will be diverted only when the grid voltage rise above set value, ex.252V) and Normal mode (diverter always enabled and active when boiler temp. is below set value).
+
+Boost mode can be enabled for low temperature in the boiler, to heatup the water to preset value, when there is no excess power from PV system.
+
 1st Test Video  
 https://youtube.com/shorts/sCgPW7VnUGQ
 
