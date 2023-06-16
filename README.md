@@ -4,8 +4,14 @@ DIY 3 Phase Power Diverter for PV system
 Can divert all excess power from each phase to a boiler/puffer.
 Power related messages, are obtained from Huawei SmartMeter and Inverter, over WiFi ModbusTCP connection.
 
-First test Video
+1st Test Video  
 https://youtube.com/shorts/sCgPW7VnUGQ
+
+2nd Test Video = Thermostat function  
+https://youtu.be/1lXEFfLnF-U
+
+3rd Test Video = Live  
+https://youtu.be/6jQ1DJV2dLw
 
 Video Description:
 
@@ -21,10 +27,11 @@ Video Description:
 >Grid A/B/C   V = Grid Voltage on each phase  
 
 
+
 Main Components:
 
 1) v1 = 3x PWM 8A Dimmers + external isolated triacs (BTA41-600B) = https://www.tindie.com/products/bugrovs2012/pwm-8a-ac-light-dimmer-module-50hz-60hz-tasmota/#specs  
-v2 = 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm-16a-3500w-triac-leading-edge-dimmer-50hz-60hz/
+v2 = NEW - MOSFET driver 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm16a-3500w-mosfet-trailing-edge-dimmer-freeds
 
 2) ESP32 TTGO TFT board = https://cleste.ro/placa-dezvoltare-cu-esp32-bluetooth-si-display.html
 
@@ -58,6 +65,8 @@ v2 = 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm-16a-35
 
 17) > ToDo = Filters to suppress Triacs EMI and RFI noise 
 
-> For 1 Phase only you can use PWM 16A Dimmer + Upshield Board for ESP32 WiFi Kit module (https://cleste.ro/modul-nodemcu-wifi-esp8266-cp2102-cu-display-oled.html) with FreeDS software (https://freeds.es/) and similar commercial box: https://www.hornbach.ro/p/doza-aplicata-pentru-legaturi-pawbol-150x110-mm-ip65-gri-cu-capac-transparent-fara-presetupe/10567244/ 
+> For 1 Phase only you can use PWM 16A Dimmer + Upshield Board for ESP32 WiFi Kit module (https://cleste.ro/modul-nodemcu-wifi-esp8266-cp2102-cu-display-oled.html) with FreeDS software (https://freeds.es/) and similar commercial box: https://www.hornbach.ro/p/doza-aplicata-pentru-legaturi-pawbol-150x110-mm-ip65-gri-cu-capac-transparent-fara-presetupe/10567244/  
+> 1 Phase Test Video  
+> https://youtu.be/vAFfa62qKx4
 
 >Work in progress...
