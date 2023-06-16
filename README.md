@@ -26,7 +26,14 @@ Video Description:
 >Grid A/B/C  kW = power injection (Green) / consumption (Red) on each phase  
 >Grid A/B/C   V = Grid Voltage on each phase  
 
+----- Software ----- 
 
+No WebUI, so you need to compile the project in Arduino, with your settings. Search for "Config" part in the sourcecode.  
+
+A preconfigured, portable Arduino package, can be downloaded from here = https://drive.google.com/file/d/1l2-xdqns-cGS3Vl_VYF_oUsG2-rnJhcs/view?usp=sharing
+
+  
+----- Hardware ----- 
 
 Main Components:
 
@@ -51,7 +58,7 @@ v2 = NEW - MOSFET driver 3x PWM 16A Dimmers = https://www.tindie.com/products/bu
 
 10) Heatsink 60x190mm (for v1 only) = https://componenteonline.ro/Radiatorextrudataluminiu60mmx1905mmCuloareSTONECOLD--T137016 
 
-11) 5V FAN 60x60mm (for v1 only) = 3x https://dalap.ro/ventilator-racire-dalap-saf-5v-dc-60x60x25-mm-3000-rmin-3679
+11) 5V FAN 60x60mm (Optional, for v1 only) = 1-3x https://dalap.ro/ventilator-racire-dalap-saf-5v-dc-60x60x25-mm-3000-rmin-3679
 
 12) 5V Power supply, min. 2A
 
