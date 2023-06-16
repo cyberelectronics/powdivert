@@ -38,7 +38,7 @@ A preconfigured, portable Arduino package, can be downloaded from here = https:/
 Main Components:
 
 1) v1 = 3x PWM 8A Dimmers + external isolated triacs (BTA41-600B) = https://www.tindie.com/products/bugrovs2012/pwm-8a-ac-light-dimmer-module-50hz-60hz-tasmota/#specs  
-v2 = NEW - MOSFET driver 3x PWM 16A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm16a-3500w-mosfet-trailing-edge-dimmer-freeds
+v2 = NEW - MOSFET driver 3x PWM 10A Dimmers = https://www.tindie.com/products/bugrovs2012/pwm16a-3500w-mosfet-trailing-edge-dimmer-freeds
 
 2) ESP32 TTGO TFT board = https://cleste.ro/placa-dezvoltare-cu-esp32-bluetooth-si-display.html
 
