@@ -2,7 +2,9 @@
 DIY 3 Phase Power Diverter for PV system
 
 Can divert all excess power from each phase to a boiler/puffer.
-Power related messages, are obtained from Huawei SmartMeter and Inverter, over WiFi ModbusTCP connection. You must activate ModbusTCP from Huawei Dongle, with Installer account (Local O&M > ModbusTCP > Unrestricted access > Time interval 1-3 seconds) and set a fixed IP on your router for both Huawei Dongle and your Diverter.
+Power related messages, are obtained from Huawei SmartMeter and Inverter, over WiFi ModbusTCP connection. 
+In order to establish the ModbusTCP connection with the Dongle/Inverter, first you need to update the Dongle and Inverter Firmware, to the latest version (at least V100R001C00SPC133 for Dongle and V100R001C00SPC153 for Inverter).
+You must activate ModbusTCP from Huawei Dongle, with Installer account (Local O&M > ModbusTCP > Unrestricted access > Time interval 1-3 seconds) and set a fixed IP on your router for both Huawei Dongle and your Diverter.
 
 Two different working modes can be enabled: Overvoltage protection (power will be diverted only when the grid voltage rise above set value, ex.252V) and Normal mode (diverter always enabled and active when boiler temp. is below set value).
 
