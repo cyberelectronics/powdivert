@@ -1,0 +1,35 @@
+Use static IP for FreeDS diverter
+
+Replace the Entity Name from payload_template >>>
+
+
+service: mqtt.publish
+data:
+  topic: Inverter/PvWattsTotal
+  qos: "0"
+  retain: false
+  payload_template: "{{states('sensor.total_solar_power')|float(0)/3}}"
+
+
+service: mqtt.publish
+data:
+  topic: Inverter/GridWatts
+  qos: "0"
+  retain: false
+  payload_template: "{{states('sensor.power_meter_phase_b_active_power_1')|float(0)*-1}}"
+
+
+service: mqtt.publish
+data:
+  topic: Inverter/SolarKwUse
+  qos: "0"
+  retain: false
+  payload_template: "{{states('sensor.inverter_daily_yield_2')}}"
+
+
+service: mqtt.publish
+data:
+  topic: Inverter/GridVoltage
+  qos: "0"
+  retain: false
+  payload_template: "{{states('sensor.power_meter_phase_b_voltage_1')}}"
