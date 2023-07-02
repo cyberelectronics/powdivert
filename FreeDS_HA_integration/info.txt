@@ -1,4 +1,20 @@
-Use static IP for FreeDS diverter
+1, 2 = Install and setup MQTT broker
+3 = Add User and Pass to HomeAssistant for FreeDS MQTT login
+4 = Create New Automation with Time Pattern Trigger and Publish Solar and Grid values to FreeDS 
+5, 6 = Add at least 4 MQTT Publish Actions and modify the Entity Names in the Payload_Template line + convert the values if needed
+7 = Access and config FreeDS from a web browser > Select ICC Solar (MQTT)
+8 = MQTT Settings > Add HomeAssistant Static IP Address + User + Pass
+9 = Temperature Sensor Settings (3x DS18B20)
+10 = Relays Settings > Edit Connected load with your Boiler Power
+11 = Optional External FAN for Mosfet Heatsink on Relay4 output (connect the FAN to an external transistor to turn ON/OFF)
+12 = Console > PID tuning command, needed when slow response time from inverter/powermeter was set (above 15 seconds => slow down the PID).
+13 = Settings > Devices & Services > Add Integration > search for FreeDS
+14 = FreeDS added successfully
+15 = Optional Automation, to Enable/Disable the diverter at a specific time or High Grid Voltage value
+
+PS: Use static IP for FreeDS diverter, HomeAssistant and Inverter/Powermeter
+=================================================================
+
 
 Replace the Entity Name from payload_template >>>
 
