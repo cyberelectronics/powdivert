@@ -8,7 +8,7 @@
 10 = Relays Settings > Edit Connected load with your Boiler Power
 11 = Optional External FAN for Mosfet Heatsink on Relay4 output (connect the FAN to an external transistor to turn ON/OFF)
 12 = Console > PID tuning command, needed when slow response time from inverter/powermeter was set (above 15 seconds => slow down the PID).
-13 = Settings > Devices & Services > Add Integration > search for FreeDS
+13 = FreeDS Integration + HACS - How to... https://github.com/IvanSanchez/homeassistant-freeds 
 14 = FreeDS added successfully
 15 = Optional Automation, to Enable/Disable the diverter at a specific time or High Grid Voltage value
 
